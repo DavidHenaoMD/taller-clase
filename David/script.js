@@ -28,8 +28,18 @@ alert("El área de la pared es: " + area.toFixed(2) + " metros cuadrados.");
 // Programa que calcula el perímetro de un potrero rectangular
 
 let largo = parseFloat(prompt("Ingrese el largo del potrero en metros:"));
-let ancho = parseFloat(prompt("Ingrese el ancho del potrero en metros:"));
+let ancho1 = parseFloat(prompt("Ingrese el ancho del potrero en metros:"));
 
 let perimetro = 2 * (largo + ancho);
 
 alert("El perímetro del potrero es: " + perimetro.toFixed(2) + " metros.");
+
+//ejercicio 4//
+
+// Programa que convierte grados Fahrenheit a grados Celsius
+
+let fahrenheit = parseFloat(prompt("Ingrese la temperatura en grados Fahrenheit (°F):"));
+
+let celsius = (fahrenheit - 32) * 5 / 9;
+
+alert(fahrenheit + "°F equivalen a " + celsius.toFixed(2) + "°C");
