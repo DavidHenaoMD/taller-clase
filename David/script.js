@@ -43,3 +43,13 @@ let fahrenheit = parseFloat(prompt("Ingrese la temperatura en grados Fahrenheit 
 let celsius = (fahrenheit - 32) * 5 / 9;
 
 alert(fahrenheit + "°F equivalen a " + celsius.toFixed(2) + "°C");
+
+//ejercicio 5//
+
+// Programa que calcula la edad de un usuario
+
+let nacimiento = parseInt(prompt("Ingrese su año de nacimiento:"));
+let anioActual = 2024;
+let edad = anioActual - nacimiento;
+
+alert("Usted tiene " + edad + " años.");
