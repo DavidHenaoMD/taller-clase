@@ -22,3 +22,14 @@ let alto = parseFloat(prompt("Ingrese el alto de la pared en metros:"));
 let area = ancho * alto;
 
 alert("El área de la pared es: " + area.toFixed(2) + " metros cuadrados.");
+
+//ejercicio 3//
+
+// Programa que calcula el perímetro de un potrero rectangular
+
+let largo = parseFloat(prompt("Ingrese el largo del potrero en metros:"));
+let ancho = parseFloat(prompt("Ingrese el ancho del potrero en metros:"));
+
+let perimetro = 2 * (largo + ancho);
+
+alert("El perímetro del potrero es: " + perimetro.toFixed(2) + " metros.");
